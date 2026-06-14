@@ -1,0 +1,181 @@
+
+body{
+
+    margin:0;
+    font-family:Tahoma, sans-serif;
+    background:white;
+
+}
+
+
+/* Header */
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:#0b7a4b;
+    color:white;
+
+}
+
+
+.logo{
+
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:15px;
+
+}
+
+
+
+/* Hero */
+
+.hero{
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:50px;
+
+}
+
+
+.text{
+
+    width:45%;
+
+}
+
+
+.text h1{
+
+    font-size:40px;
+    color:#0b7a4b;
+
+}
+
+
+.text p{
+
+    font-size:18px;
+
+}
+
+
+button{
+
+    padding:12px 20px;
+    margin:10px;
+    border:none;
+    background:#0b7a4b;
+    color:white;
+    cursor:pointer;
+
+}
+
+
+
+.image img{
+
+    width:300px;
+
+}
+
+
+
+/* Services */
+
+.services{
+
+    text-align:center;
+    padding:40px;
+
+}
+
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+}
+
+
+.card{
+
+    width:200px;
+    padding:20px;
+    background:#f2f2f2;
+    border-radius:10px;
+
+}
+
+
+.card h3{
+
+    color:#0b7a4b;
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
+
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:700px){
+
+header{
+
+    flex-direction:column;
+
+}
+
+
+.hero{
+
+    flex-direction:column;
+
+}
+
+
+.text{
+
+    width:90%;
+
+}
+
+
+.cards{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+}
